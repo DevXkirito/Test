@@ -3,6 +3,10 @@ from pyrogram.types import Message
 import requests
 from bs4 import BeautifulSoup
 
+
+API_ID = 26849554
+API_HASH = '80cea917dbb6994312c9994439c0763a'
+BOT_TOKEN = '5285088021:AAGKLDx4rX3JQxE0EIoteExqmfpB8oQ8gis'
 app = Client("my_bot")
 
 @app.on_message(filters.command("index"))
